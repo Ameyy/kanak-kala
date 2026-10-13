@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us • Founder's Story | Kanak Jewellery (कनक कला)</title>
+  <meta name="description" content="Discover the story behind Kanak Jewellery. Handcrafting featherlight, Paithani-safe Maharashtrian heirloom jewellery with rich gold polish and ancestral motifs in Mumbai.">
+  
+  <link rel="icon" type="image/png" href="assets/images/kanak-kala-logo-transparent.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement -->
+  <div class="top-announcement">
+    <div class="announcement-content">
+      <span>FREE SHIPPING ACROSS INDIA</span>
+      <span class="announcement-sep">•</span>
+      <span>PREMIUM GOLD FINISH &amp; HANDPICKED STONES</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <div class="nav-left">
+        <button class="menu-trigger-btn" id="menuToggleBtn" aria-label="Open full page menu">
+          <span class="menu-trigger-icon" aria-hidden="true">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+          </span>
+          <span class="menu-trigger-label">MENU</span>
+        </button>
+      </div>
+
+      <a href="index.html" class="brand-logo" aria-label="Kanak Jewellery Home">
+        <img src="assets/images/kanak-kala-wordmark.png" alt="Kanak Kala" class="brand-logo-img">
+      </a>
+
+      <div class="nav-actions">
+        <div class="currency-picker">
+          <label for="currencySelect" class="sr-only">Currency</label>
+          <select id="currencySelect">
+            <option value="INR" selected>INR (₹)</option>
+            <option value="USD">USD ($)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="AED">AED (د.إ)</option>
+          </select>
+        </div>
+
+        <a href="cart.html" class="action-btn bag-btn" aria-label="Shopping Bag">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="action-badge" id="bagCountBadge">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- FULL PAGE EDITORIAL MENU -->
+  <div class="full-page-menu" id="fullPageMenu" aria-hidden="true">
+    <div class="fp-menu-inner">
+      
+      <!-- Top Bar of Menu -->
+      <div class="fp-menu-header">
+        <button class="fp-menu-close-btn" id="fpMenuCloseBtn" aria-label="Close menu">
+          <span class="fp-close-icon">✕</span>
+          <span class="fp-close-text">CLOSE</span>
+        </button>
+
+        <a href="index.html" class="fp-menu-brand" aria-label="Kanak Jewellery Home">
+          <img src="assets/images/kanak-kala-wordmark.png" alt="Kanak Kala" class="fp-brand-img">
+        </a>
+
+        <div class="fp-header-meta">
+          <span class="fp-location-tag">MUMBAI ATELIER</span>
+          <a href="cart.html" class="fp-bag-link">
+            BAG (<span class="fp-bag-count">0</span>)
+          </a>
+        </div>
+      </div>
+
+      <!-- Menu Breadcrumb Context Ribbon -->
+      <div class="fp-menu-ribbon">
+        <div class="fp-ribbon-content">
+          <span>JEWELLERY DIRECTORY</span>
+          <span class="fp-ribbon-sep">•</span>
+          <span>TRADITIONAL GOLD FINISH DESIGNS</span>
+          <span class="fp-ribbon-sep">•</span>
+          <span>HANDCRAFTED IN MAHARASHTRA</span>
+        </div>
+      </div>
+
+      <!-- Main Menu Content Grid -->
+      <div class="fp-menu-body">
+        
+        <!-- Column 1: Editorial Main Navigation -->
+        <nav class="fp-col fp-nav-col">
+          <span class="fp-col-label">EXPLORE ATELIER</span>
+          <ul class="fp-nav-list">
+            <li class="fp-nav-item">
+              <a href="index.html#maisons" class="fp-nav-link">
+                <span class="fp-link-num">01</span>
+                <span class="fp-link-title">All Collections</span>
+                <span class="fp-link-sub">सर्व संग्रह • Heirloom Maisons</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="peshwai-ruby-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">02</span>
+                <span class="fp-link-title">Peshwai Ruby Nath</span>
+                <span class="fp-link-sub">पेशवाई नथ • Teardrop Ruby &amp; Gold</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="masoli-karnaful.html" class="fp-nav-link">
+                <span class="fp-link-num">03</span>
+                <span class="fp-link-title">Masoli Karnaful</span>
+                <span class="fp-link-sub">मसोळी कर्णफुल • Minakari &amp; Pearls</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="vat-purnima-bangles.html" class="fp-nav-link">
+                <span class="fp-link-num">04</span>
+                <span class="fp-link-title">Vat Purnima Bangles</span>
+                <span class="fp-link-sub">वटपौर्णिमा तोडे • Six-Piece Bridal Set</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="emerald-leaf-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">05</span>
+                <span class="fp-link-title">Panna Ratna Vruksha Nath</span>
+                <span class="fp-link-sub">पाचू नथ • Natural Emerald Petals</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="antique-padmarag-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">06</span>
+                <span class="fp-link-title">Antique Padmarag Nath</span>
+                <span class="fp-link-sub">पद्मराग नथ • White Pearl Drop</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="about.html" class="fp-nav-link active">
+                <span class="fp-link-num">07</span>
+                <span class="fp-link-title">About Us • Founder's Story</span>
+                <span class="fp-link-sub">संस्थापकाची गोष्ट • Our Heritage Journey</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="contact.html" class="fp-nav-link">
+                <span class="fp-link-num">08</span>
+                <span class="fp-link-title">Private Appointments</span>
+                <span class="fp-link-sub">खास बैठक • Atelier Consultation</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Column 2: Featured Heirlooms Spotlight -->
+        <div class="fp-col fp-featured-col">
+          <span class="fp-col-label">MASTERPIECE SPOTLIGHT</span>
+          <div class="fp-spotlight-card">
+            <div class="fp-spotlight-frame">
+              <img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Peshwai Ruby Nath Spotlight" class="fp-spotlight-img">
+              <span class="fp-spotlight-badge">FEATURED PIECE</span>
+            </div>
+            <div class="fp-spotlight-meta">
+              <h4 class="fp-spotlight-title">Peshwai Teardrop Ruby Nath</h4>
+              <p class="fp-spotlight-desc">Our flagship bridal masterpiece in traditional gold polish with radiant ruby center stone.</p>
+              <a href="peshwai-ruby-nath.html" class="fp-spotlight-btn">View Masterpiece →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: Atelier Heritage Notes & Hours -->
+        <div class="fp-col fp-atelier-col">
+          <span class="fp-col-label">ATELIER DIRECTORY</span>
+          <div class="fp-atelier-card">
+            <h4 class="fp-atelier-name">Kanak Jewellery • कनक कला</h4>
+            <p class="fp-atelier-address">
+              Studio &amp; Design Atelier<br>
+              Dadar West, Mumbai, Maharashtra 400028<br>
+              India
+            </p>
+            <div class="fp-atelier-hours">
+              <span class="fp-hours-label">ATELIER CONCIERGE:</span>
+              <span class="fp-hours-time">Mon – Sat: 10:30 AM – 7:30 PM IST</span>
+            </div>
+            <a href="https://wa.me/919152284091" target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-outline btn-sm fp-wa-btn">
+              Direct WhatsApp Concierge ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Menu Footer -->
+      <div class="fp-menu-footer">
+        <span>© 2026 Kanak Jewellery (कनक कला). All rights reserved.</span>
+        <span>Free Safe Delivery Across India</span>
+      </div>
+
+    </div>
+  </div>
+
+  <main class="about-page-main">
+    <div class="catalog-container">
+      
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>About Us • Founder's Story</span>
+      </nav>
+
+      <!-- Hero Header -->
+      <section class="about-hero">
+        <span class="about-kicker">OUR FOUNDER’S JOURNEY • आमची परंपरा</span>
+        <h1 class="about-title">The Heart Behind <em>Kanak Jewellery</em>.</h1>
+        <p class="about-lead">
+          A humble dream born in Maharashtra—bringing timeless royal heirloom ornaments to every bride, festive celebration, and family milestone with effortless elegance and modern comfort.
+        </p>
+      </section>
+
+      <!-- Two-Column Editorial Storytelling -->
+      <div class="about-story-layout">
+        
+        <!-- Media Column -->
+        <div class="about-media-col">
+          <div class="about-portrait-card">
+            <div class="about-portrait-wrap">
+              <img src="assets/images/maison-hands-rings.jpg" alt="Artisan hands shaping heirloom jewelry at Kanak Atelier" class="about-portrait-img">
+              <span class="about-badge-tag">MUMBAI ATELIER • ESTD. 2024</span>
+            </div>
+            <p class="about-caption">
+              “Every curve of a Kanak ornament is shaped by hand to honor Maharashtra’s regal heritage without the weight, anxiety, or delicate snagging.”
+            </p>
+          </div>
+        </div>
+
+        <!-- Narrative Column -->
+        <div class="about-narrative-col">
+          
+          <div class="about-story-block">
+            <span class="about-chapter-label">CHAPTER 01 • एका साध्या इच्छेतून सुरुवात</span>
+            <h2 class="about-story-title">How It Began: The Locked Heritage</h2>
+            <p class="about-story-p">
+              Growing up in a traditional Maharashtrian household, our founder Gauri Shinde observed a poignant truth: every family treasured their antique Peshwai Naths and Kolhapuri tode bangles, yet these precious heirlooms spent almost their entire life locked inside steel bank lockers.
+            </p>
+            <p class="about-story-p">
+              Real gold felt excessively heavy, stressful to wear in crowded celebrations, and prone to pulling on delicate earlobes or snagging precious silk Paithanis. For festive occasions like Sakharpuda, Mangalagaur, or Gauri-Ganpati, women hesitated to wear the pieces they loved most.
+            </p>
+            <p class="about-story-p">
+              The question was simple and clear: <em>Why shouldn't heirloom jewellery be featherlight, gentle to wear from morning rituals to evening receptions, and accessible for every family celebrating their roots?</em>
+            </p>
+          </div>
+
+          <div class="about-story-block">
+            <span class="about-chapter-label">CHAPTER 02 • अस्सल पारंपारिक नक्षी</span>
+            <h2 class="about-story-title">Honoring Tradition With Everyday Comfort</h2>
+            <p class="about-story-p">
+              Kanak Jewellery (कनक कला) was founded with a singular dedication: to recreate Maharashtra’s most regal jewellery silhouettes with complete fidelity to historical proportions, but reimagined for modern comfort.
+            </p>
+            <p class="about-story-p">
+              We partnered with seasoned local karigars who understand the subtle arch of an authentic Peshwai Nath, the intricate Minakari enamel work of traditional Masoli fish earrings, and the rhythmic symmetry of bridal Pichodi kadas.
+            </p>
+            <p class="about-story-p">
+              Every design is finished in our signature rich antique gold polish—a warm, dignified lustre that radiates timeless warmth and photographs brilliantly under both natural daylight and wedding stage lights.
+            </p>
+          </div>
+
+          <div class="about-story-block">
+            <span class="about-chapter-label">CHAPTER 03 • पैठणी-सुरक्षित कारागिरी</span>
+            <h2 class="about-story-title">The Paithani-Safe Promise</h2>
+            <p class="about-story-p">
+              Any woman who has worn a traditional bridal nath or heavy kada knows the constant worry of delicate Paithani zari threads getting caught in sharp prongs or rough backings.
+            </p>
+            <p class="about-story-p">
+              At Kanak, every single piece undergoes meticulous smoothing along its inner contours, prongs, and clasps. Our press-on naths feature contoured, non-pinching clips so you can laugh, speak, and enjoy your feast without soreness.
+            </p>
+          </div>
+
+          <!-- Founder Quote Box -->
+          <div class="founder-quote-box">
+            <blockquote class="founder-quote-text">
+              “When a bride looks in the mirror on her wedding morning wearing our Peshwai Nath, we don’t just see jewellery—we see her mother’s smile, her grandmother’s blessings, and the quiet pride of our Maharashtrian traditions.”
+            </blockquote>
+            <div class="founder-signoff">
+              <span class="founder-name">Gauri Shinde</span>
+              <span class="founder-title">Founder &amp; Creative Lead • Kanak Jewellery (कनक कला)</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 4 Pillars Section -->
+      <section class="about-pillars-section" id="pillars">
+        <div class="about-pillars-header">
+          <span class="about-kicker">FOUR PRINCIPLES OF KANAK</span>
+          <h2 class="about-title" style="font-size: 2.6rem;">Craftsmanship That <em>Endures</em>.</h2>
+        </div>
+
+        <div class="about-pillars-grid">
+          
+          <div class="about-pillar-card">
+            <span class="pillar-num">01</span>
+            <h3 class="pillar-title">Authentic Heritage Motifs</h3>
+            <p class="pillar-desc">True-to-tradition Peshwai, Kolhapuri, and Temple silhouettes crafted with deep reverence for ancestral Maharashtrian art.</p>
+          </div>
+
+          <div class="about-pillar-card">
+            <span class="pillar-num">02</span>
+            <h3 class="pillar-title">All-Day Featherlight Wear</h3>
+            <p class="pillar-desc">Thoughtfully weighted to ensure you can celebrate through long wedding ceremonies, sangeet dances, and festivals without fatigue.</p>
+          </div>
+
+          <div class="about-pillar-card">
+            <span class="pillar-num">03</span>
+            <h3 class="pillar-title">Rich Heirloom Gold Polish</h3>
+            <p class="pillar-desc">Multi-step traditional gold polish that mirrors antique family heirlooms, paired with hand-crimped pearls and vibrant stones.</p>
+          </div>
+
+          <div class="about-pillar-card">
+            <span class="pillar-num">04</span>
+            <h3 class="pillar-title">Insured Doorstep Delivery</h3>
+            <p class="pillar-desc">Every piece is inspected, cushioned in our keepsake royal velvet chest, and delivered safely across India with complete transit care.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Bottom Call To Action Strip -->
+      <div class="about-cta-strip">
+        <h2 class="about-cta-title">Celebrate Your Heritage With <em>Kanak</em>.</h2>
+        <p style="font-size: 0.95rem; color: rgba(246, 241, 232, 0.85); max-width: 520px;">
+          Explore our handcrafted naths, bridal kadas, and statement earrings—crafted for brides, daughters, and mothers across Maharashtra.
+        </p>
+        <div class="about-cta-actions">
+          <a href="index.html#maisons" class="btn-pill btn-pill-primary">
+            Explore All Collections →
+          </a>
+          <a href="https://wa.me/919152284091?text=Namaste%20Kanak%20Jewellery%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20pieces." target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-outline" style="color: var(--c-60); border-color: rgba(246, 241, 232, 0.5);">
+            Chat with Founder on WhatsApp ↗
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      
+      <div class="footer-brand-col">
+        <a href="index.html" aria-label="Kanak Jewellery Home">
+          <img src="assets/images/kanak-kala-logo-transparent.png" alt="Kanak Kala - Puratan Kalecha Adhunik Saj" class="footer-logo-img">
+        </a>
+        <p class="footer-bio">Handcrafted traditional Maharashtrian jewellery. Rich gold polish, classic motifs, and lightweight comfort.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Shop</h4>
+        <ul class="footer-links">
+          <li><a href="peshwai-ruby-nath.html">Peshwai Naths</a></li>
+          <li><a href="masoli-karnaful.html">Masoli Karnaful</a></li>
+          <li><a href="vat-purnima-bangles.html">Bridal Bangles</a></li>
+          <li><a href="emerald-leaf-nath.html">Kundan &amp; Panna</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">About &amp; Story</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">Founder's Story</a></li>
+          <li><a href="about.html#pillars">Our 4 Pillars</a></li>
+          <li><a href="contact.html">Private Appointments</a></li>
+          <li><a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer">Instagram @_kanak_kala</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Customer Care</h4>
+        <ul class="footer-links">
+          <li><a href="cart.html">Shopping Bag</a></li>
+          <li><a href="contact.html">Customer Support</a></li>
+          <li><a href="https://wa.me/919152284091" target="_blank" rel="noopener noreferrer">WhatsApp Concierge</a></li>
+          <li><a href="index.html#newsletter">Join Atelier Letters</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <span>© 2026 Kanak Jewellery (कनक कला). All rights reserved.</span>
+        <span>Mumbai • Pune • Maharashtra • India</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

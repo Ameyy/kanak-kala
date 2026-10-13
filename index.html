@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanak Jewellery | Handcrafted Heirloom Jewellery</title>
+  <meta name="description" content="Traditional Maharashtrian jewellery. Handcrafted designs with rich gold finish, sparkling stones, and pearls.">
+  
+  <link rel="icon" type="image/png" href="assets/images/kanak-kala-logo-transparent.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 3D LOGO SCROLL INTRO STAGE -->
+  <div class="logo-3d-stage" id="logo3dStage">
+    <div class="logo-3d-backdrop" id="logo3dBackdrop"></div>
+    <div class="logo-3d-anchor" id="logo3dAnchor">
+      <div class="logo-3d-card" id="logo3dCard">
+        <img src="assets/images/kanak-kala-wordmark.png" alt="Kanak Kala" class="logo-3d-img" id="logo3dImg">
+      </div>
+    </div>
+    <div class="logo-3d-scroll-hint" id="logo3dScrollHint">
+      <span class="hint-dot">✦</span>
+      <span class="hint-text">SCROLL TO ENTER</span>
+      <span class="hint-arrow">↓</span>
+    </div>
+  </div>
+
+  <!-- Top Announcement -->
+  <div class="top-announcement">
+    <div class="announcement-content">
+      <span><span class="pulse-dot"></span> FESTIVE ORDERS OPEN</span>
+      <span class="announcement-sep">•</span>
+      <span>FREE SHIPPING ACROSS INDIA</span>
+      <span class="announcement-sep">•</span>
+      <span>PREMIUM GOLD FINISH &amp; HANDPICKED STONES</span>
+    </div>
+  </div>
+
+  <!-- Editorial Site Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      
+      <div class="nav-left">
+        <button class="menu-trigger-btn" id="menuToggleBtn" aria-label="Open full page menu">
+          <span class="menu-trigger-icon" aria-hidden="true">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+          </span>
+          <span class="menu-trigger-label">MENU</span>
+        </button>
+      </div>
+
+      <a href="index.html" class="brand-logo" aria-label="Kanak Jewellery Home">
+        <img src="assets/images/kanak-kala-wordmark.png" alt="Kanak Kala" class="brand-logo-img">
+      </a>
+
+      <div class="nav-actions">
+        <div class="currency-picker">
+          <label for="currencySelect" class="sr-only">Currency</label>
+          <select id="currencySelect">
+            <option value="INR" selected>INR (₹)</option>
+            <option value="USD">USD ($)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="AED">AED (د.إ)</option>
+          </select>
+        </div>
+
+        <a href="cart.html" class="action-btn bag-btn" aria-label="Shopping Bag">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="action-badge" id="bagCountBadge">0</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- FULL PAGE EDITORIAL MENU -->
+  <div class="full-page-menu" id="fullPageMenu" aria-hidden="true">
+    <div class="fp-menu-inner">
+      
+      <!-- Top Bar of Menu -->
+      <div class="fp-menu-header">
+        <button class="fp-menu-close-btn" id="fpMenuCloseBtn" aria-label="Close menu">
+          <span class="fp-close-icon">✕</span>
+          <span class="fp-close-text">CLOSE</span>
+        </button>
+
+        <a href="index.html" class="fp-menu-brand" aria-label="Kanak Jewellery Home">
+          <img src="assets/images/kanak-kala-wordmark.png" alt="Kanak Kala" class="fp-brand-img">
+        </a>
+
+        <div class="fp-header-meta">
+          <span class="fp-location-tag">MUMBAI ATELIER</span>
+          <a href="cart.html" class="fp-bag-link">
+            BAG (<span class="fp-bag-count">0</span>)
+          </a>
+        </div>
+      </div>
+
+      <!-- Menu Breadcrumb Context Ribbon -->
+      <div class="fp-menu-ribbon">
+        <div class="fp-ribbon-content">
+          <span>JEWELLERY DIRECTORY</span>
+          <span class="fp-ribbon-sep">•</span>
+          <span>TRADITIONAL GOLD FINISH DESIGNS</span>
+          <span class="fp-ribbon-sep">•</span>
+          <span>HANDCRAFTED IN MAHARASHTRA</span>
+        </div>
+      </div>
+
+      <!-- Main Menu Content Grid -->
+      <div class="fp-menu-body">
+        
+        <!-- Column 1: Editorial Main Navigation -->
+        <nav class="fp-col fp-nav-col">
+          <span class="fp-col-label">EXPLORE COLLECTIONS</span>
+          <ul class="fp-nav-list">
+            <li class="fp-nav-item">
+              <a href="#maisons" class="fp-nav-link">
+                <span class="fp-link-num">01</span>
+                <span class="fp-link-title">All Collections</span>
+                <span class="fp-link-sub">सर्व संग्रह • Traditional Designs</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="peshwai-ruby-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">02</span>
+                <span class="fp-link-title">Peshwai Ruby Nath</span>
+                <span class="fp-link-sub">पेशवाई नथ • Red Stone &amp; Gold Polish</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="masoli-karnaful.html" class="fp-nav-link">
+                <span class="fp-link-num">03</span>
+                <span class="fp-link-title">Masoli Karnaful</span>
+                <span class="fp-link-sub">मसोळी कर्णफुल • Minakari &amp; Pearls</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="vat-purnima-bangles.html" class="fp-nav-link">
+                <span class="fp-link-num">04</span>
+                <span class="fp-link-title">Vat Purnima Bangles</span>
+                <span class="fp-link-sub">वटपौर्णिमा तोडे • Six-Piece Bridal Set</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="emerald-leaf-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">05</span>
+                <span class="fp-link-title">Panna Ratna Vruksha Nath</span>
+                <span class="fp-link-sub">पाचू नथ • Green Leaf Stones &amp; Pearl</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="antique-padmarag-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">06</span>
+                <span class="fp-link-title">Antique Padmarag Nath</span>
+                <span class="fp-link-sub">पद्मराग नथ • White Pearl Drop</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="about.html" class="fp-nav-link">
+                <span class="fp-link-num">07</span>
+                <span class="fp-link-title">About Us • Founder's Story</span>
+                <span class="fp-link-sub">संस्थापकाची गोष्ट • Our Heritage Journey</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="contact.html" class="fp-nav-link">
+                <span class="fp-link-num">08</span>
+                <span class="fp-link-title">Private Appointments</span>
+                <span class="fp-link-sub">खास बैठक • Help &amp; Custom Orders</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Column 2: Featured Heirlooms Spotlight -->
+        <div class="fp-col fp-featured-col">
+          <span class="fp-col-label">FEATURED DESIGN</span>
+          <div class="fp-spotlight-card">
+            <div class="fp-spotlight-frame">
+              <img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Peshwai Ruby Nath" class="fp-spotlight-img">
+            </div>
+            <div class="fp-spotlight-details">
+              <span class="fp-spotlight-tag">PREMIUM GOLD FINISH • CLASSIC</span>
+              <h3 class="fp-spotlight-title">Peshwai Ruby Nath</h3>
+              <p class="fp-spotlight-desc">Traditional clip-on nath with a teardrop red stone and delicate white pearls.</p>
+              <div class="fp-spotlight-price-row">
+                <span class="fp-spotlight-price">₹18,500</span>
+                <a href="peshwai-ruby-nath.html" class="btn-pill btn-pill-outline btn-sm">View Piece →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: Atelier Information & Direct Concierge -->
+        <div class="fp-col fp-atelier-col">
+          <span class="fp-col-label">OUR PROMISE</span>
+          
+          <div class="fp-info-block">
+            <h4 class="fp-info-heading">Quality Promise</h4>
+            <p class="fp-info-text">Each piece is crafted with a rich, durable gold polish and hand-set stones made to look stunning for all your festive celebrations.</p>
+          </div>
+
+          <div class="fp-info-block">
+            <h4 class="fp-info-heading">WhatsApp Order Support</h4>
+            <p class="fp-info-text">Have questions about sizing, delivery, or bridal sets? We are here to help you directly on WhatsApp.</p>
+            <a href="https://wa.me/919152284091?text=Namaste%20Kanak%20Jewellery%2C%20I%20would%20like%20to%20inquire%20about%20your%20jewellery." target="_blank" rel="noopener" class="btn-pill btn-pill-primary btn-sm fp-wa-btn">
+              Chat on WhatsApp →
+            </a>
+          </div>
+
+          <div class="fp-info-block">
+            <h4 class="fp-info-heading">Design Studio</h4>
+            <p class="fp-info-text">Girgaon &amp; Dadar,<br>Mumbai, Maharashtra 400004</p>
+          </div>
+
+          <div class="fp-social-links">
+            <a href="https://www.instagram.com/_kanak_kala" target="_blank" rel="noopener" class="fp-social-link">
+              Instagram @_kanak_kala ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Menu Footer -->
+      <div class="fp-menu-footer">
+        <span>© 2026 Kanak Jewellery (कनक कला). All rights reserved.</span>
+        <span>Complimentary Insured Delivery Across India</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true">
+    <div class="search-card">
+      <div class="search-card-header">
+        <span class="search-title">Search Collection</span>
+        <button class="modal-close-btn" id="closeSearchBtn">✕</button>
+      </div>
+      <div class="search-input-wrap">
+        <input type="text" id="searchInput" placeholder="Search by jewellery, design, or collection...">
+        <button class="search-clear-btn" id="clearSearchBtn">Clear</button>
+      </div>
+      <div class="search-results" id="searchResultsList"></div>
+    </div>
+  </div>
+
+  <main>
+    
+    <!-- BLOCK 1: HERO SECTION -->
+    <section class="hero-editorial">
+      <div class="hero-editorial-container">
+        
+        <div class="hero-editorial-content">
+          <div class="hero-editorial-tag">
+            <span>✦</span>
+            <span>कनक कला • KANAK JEWELLERY</span>
+          </div>
+          <h1 class="hero-editorial-title">
+            पुरातन कलेचा <em>आधुनिक साज</em>.
+          </h1>
+          <p class="hero-editorial-desc">
+            Handcrafted Maharashtrian jewellery with rich gold polish, sparkling stones, and classic pearls. Made for weddings, festive occasions, and everyday celebrations.
+          </p>
+          <div class="hero-editorial-actions">
+            <a href="#maisons" class="btn-pill btn-pill-primary">Explore Collections →</a>
+            <a href="contact.html" class="btn-pill btn-pill-outline">Contact Us</a>
+          </div>
+
+          <div class="hero-trust-strip">
+            <div class="hero-trust-item">
+              <span class="hero-trust-icon">✦</span>
+              <span>Premium Gold Finish</span>
+            </div>
+            <div class="hero-trust-item">
+              <span class="hero-trust-icon">✦</span>
+              <span>Hand-Set Stones</span>
+            </div>
+            <div class="hero-trust-item">
+              <span class="hero-trust-icon">✦</span>
+              <span>Traditional Designs</span>
+            </div>
+            <div class="hero-trust-item">
+              <span class="hero-trust-icon">✦</span>
+              <span>Free Delivery Across India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-editorial-visual">
+          <a href="peshwai-ruby-nath.html" class="hero-visual-frame" aria-label="Explore Peshwai Ruby Nath">
+            <div class="hero-visual-img-wrap">
+              <img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Peshwai Ruby Nath" class="hero-visual-img">
+            </div>
+            <div class="hero-visual-caption">
+              <span class="hero-caption-tag">Featured Design</span>
+              <h2 class="hero-caption-title">Peshwai Ruby Nath</h2>
+              <div class="hero-caption-meta">
+                <span class="hero-caption-price">₹18,500</span>
+                <span class="hero-caption-link">View Details →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BLOCK 2: JHAROKHA TEMPLE ARCH & FLOATING STATS -->
+    <section class="arch-stats-section">
+      <div class="arch-stats-container">
+        
+        <!-- Left Stats -->
+        <div class="stat-column">
+          <div class="stat-item">
+            <span class="stat-num" data-target="3.5" data-suffix="k" data-decimals="1">3.5<em>k</em></span>
+            <span class="stat-label">Hours of Handwork</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="98" data-suffix="%" data-decimals="0">98<em>%</em></span>
+            <span class="stat-label">Happy Customer Rating</span>
+          </div>
+        </div>
+
+        <!-- Center Temple Jharokha Arch -->
+        <div class="jharokha-frame-wrap">
+          <a href="masoli-karnaful.html" class="jharokha-arch" aria-label="View Masoli Karnaful">
+            <img src="assets/images/masoli-karnaful-earrings.jpg" alt="Masoli Karnaful in Jharokha Frame" class="jharokha-img">
+          </a>
+        </div>
+
+        <!-- Right Stats -->
+        <div class="stat-column stat-column-right">
+          <div class="stat-item">
+            <span class="stat-num" data-target="49" data-suffix="k+" data-decimals="0">49<em>k+</em></span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="1.7" data-suffix="k" data-decimals="1">1.7<em>k</em></span>
+            <span class="stat-label">Festive Orders Delivered</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="jharokha-caption">Masoli Karnaful • Handcrafted Minakari Ear Cuffs</div>
+    </section>
+
+    <!-- BLOCK 3: HEIRLOOM COLLECTIONS (5-COLUMN GRID) -->
+    <section class="maisons-section" id="collections">
+      <div id="maisons" class="anchor-marker" style="position: absolute; top: -80px; visibility: hidden;"></div>
+      <div class="maisons-container">
+        
+        <div class="maisons-header">
+          <div class="maisons-subtitle">COLLECTIONS • सर्व संग्रह</div>
+          <h2 class="maisons-title">Traditional <em>Collections</em>.</h2>
+        </div>
+
+        <div class="maisons-grid">
+          
+          <a href="emerald-leaf-nath.html" class="maison-col" id="naths">
+            <div class="maison-img-wrap">
+              <img src="assets/images/emerald-kundan-leaf-nath.jpg" alt="Panna Ratna Vruksha Nath" class="maison-img">
+            </div>
+            <h3 class="maison-name">Panna Ratna Nath</h3>
+            <p class="maison-desc">पाचू नथ • Gold Polish &amp; Emerald Green</p>
+          </a>
+
+          <a href="masoli-karnaful.html" class="maison-col" id="earrings">
+            <div class="maison-img-wrap">
+              <img src="assets/images/masoli-karnaful-earrings.jpg" alt="Masoli Karnaful" class="maison-img">
+            </div>
+            <h3 class="maison-name">Masoli Karnaful</h3>
+            <p class="maison-desc">मसोळी कर्णफुल • Minakari &amp; Pearls</p>
+          </a>
+
+          <a href="peshwai-ruby-nath.html" class="maison-col">
+            <div class="maison-img-wrap">
+              <img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Peshwai Ruby Nath" class="maison-img">
+            </div>
+            <h3 class="maison-name">Peshwai Ruby Nath</h3>
+            <p class="maison-desc">पेशवाई नथ • Gold Polish &amp; Ruby Red</p>
+          </a>
+
+          <a href="vat-purnima-bangles.html" class="maison-col" id="bangles">
+            <div class="maison-img-wrap">
+              <img src="assets/images/vat-purnima-heritage-bangles.jpg" alt="Vat Purnima Bangles" class="maison-img">
+            </div>
+            <h3 class="maison-name">Vat Purnima Bangles</h3>
+            <p class="maison-desc">वटपौर्णिमा तोडे • Six-Piece Bridal Set</p>
+          </a>
+
+          <a href="antique-padmarag-nath.html" class="maison-col">
+            <div class="maison-img-wrap">
+              <img src="assets/images/antique-padmarag-mukta-nath.jpg" alt="Antique Padmarag Mukta Nath" class="maison-img">
+            </div>
+            <h3 class="maison-name">Padmarag Mukta Nath</h3>
+            <p class="maison-desc">पद्मराग नथ • Pearl Drop</p>
+          </a>
+
+        </div>
+
+        <div class="maisons-cta-wrap">
+          <a href="#clientele" class="btn-pill btn-pill-primary">View all Collections →</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BLOCK 4: ASYMMETRIC ATELIER SPOTLIGHT (HERITAGE KARIGARI) -->
+    <section class="atelier-spotlight-section">
+      <div class="atelier-spotlight-container">
+        
+        <div class="atelier-header">
+          <div class="atelier-subtitle">TRADITIONAL DESIGNS • पारंपारिक कला</div>
+          <h2 class="atelier-title">Handcrafted with <em>Care</em>.</h2>
+          <p style="font-size: 0.95rem; color: var(--c-text-muted); margin-top: 10px;">Inspired by classic Maharashtrian heritage, every piece is handcrafted with rich gold polish, intricate wire-work, and carefully set stones and pearls.</p>
+        </div>
+
+        <div class="atelier-grid">
+          
+          <!-- Large Arched Focal Card -->
+          <div class="atelier-featured-col">
+            <div class="arch-card-featured">
+              <a href="antique-padmarag-nath.html">
+                <img src="assets/images/antique-padmarag-mukta-nath.jpg" alt="Padmarag Mukta Nath">
+              </a>
+            </div>
+            <div class="arch-featured-info">
+              <h3 class="arch-featured-title">Padmarag Mukta Chhatra Nath</h3>
+              <p style="font-size: 0.85rem; color: var(--c-text-muted);">Circular gold-finish nath with ruby-red stone center and seed pearls • ₹16,800</p>
+            </div>
+          </div>
+
+          <!-- Staggered Right Items -->
+          <div class="atelier-staggered-col">
+            
+            <div class="stagger-card">
+              <img src="assets/images/masoli-karnaful-earrings.jpg" alt="Masoli Karnaful" class="stagger-img">
+              <div>
+                <h4 class="stagger-title">Masoli Karnaful</h4>
+                <div class="stagger-price">₹34,500</div>
+                <a href="masoli-karnaful.html" class="btn-pill btn-pill-primary" style="padding: 6px 16px; font-size: 0.7rem;">Explore Piece →</a>
+              </div>
+            </div>
+
+            <div class="stagger-card">
+              <img src="assets/images/emerald-kundan-leaf-nath.jpg" alt="Panna Ratna Nath" class="stagger-img">
+              <div>
+                <h4 class="stagger-title">Panna Ratna Vruksha Nath</h4>
+                <div class="stagger-price">₹21,200</div>
+                <a href="emerald-leaf-nath.html" class="btn-pill btn-pill-primary" style="padding: 6px 16px; font-size: 0.7rem;">Explore Piece →</a>
+              </div>
+            </div>
+
+            <div style="margin-top: 6px;">
+              <a href="contact.html" class="btn-pill btn-pill-primary">Get in Touch →</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BLOCK 5: PATRON FAVOURITES (PRODUCT GRID) -->
+    <section class="clientele-section" id="clientele">
+      <div class="clientele-container">
+        
+        <div class="clientele-header">
+          <div class="clientele-subtitle">BESTSELLERS • लोकप्रिय दागिने</div>
+          <h2 class="clientele-title">Customer <em>Favourites</em>.</h2>
+        </div>
+
+        <div class="editorial-grid">
+          
+          <article class="editorial-card">
+            <div class="ed-media">
+              <a href="masoli-karnaful.html"><img src="assets/images/masoli-karnaful-earrings.jpg" alt="Masoli Karnaful" class="ed-img"></a>
+              <button class="ed-wish-btn" onclick="window.kanakApp.toggleWishlist('masoli-karnaful')" aria-label="Wishlist">♡</button>
+            </div>
+            <a href="masoli-karnaful.html"><h3 class="ed-title">Masoli Karnaful</h3></a>
+            <div class="ed-spec">Gold Finish &amp; Green Minakari</div>
+            <div class="ed-price">₹34,500</div>
+            <div class="ed-btn-row">
+              <a href="masoli-karnaful.html" class="ed-btn-view">View</a>
+              <button class="ed-btn-add" onclick="window.kanakApp.addToBag('masoli-karnaful')">Add</button>
+            </div>
+          </article>
+
+          <article class="editorial-card">
+            <div class="ed-media">
+              <a href="peshwai-ruby-nath.html"><img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Peshwai Ruby Nath" class="ed-img"></a>
+              <button class="ed-wish-btn" onclick="window.kanakApp.toggleWishlist('peshwai-ruby-nath')" aria-label="Wishlist">♡</button>
+            </div>
+            <a href="peshwai-ruby-nath.html"><h3 class="ed-title">Peshwai Ruby Nath</h3></a>
+            <div class="ed-spec">Gold Finish &amp; Teardrop Ruby</div>
+            <div class="ed-price">₹18,500</div>
+            <div class="ed-btn-row">
+              <a href="peshwai-ruby-nath.html" class="ed-btn-view">View</a>
+              <button class="ed-btn-add" onclick="window.kanakApp.addToBag('peshwai-ruby-nath')">Add</button>
+            </div>
+          </article>
+
+          <article class="editorial-card">
+            <div class="ed-media">
+              <a href="vat-purnima-bangles.html"><img src="assets/images/vat-purnima-heritage-bangles.jpg" alt="Vat Purnima Bangles" class="ed-img"></a>
+              <button class="ed-wish-btn" onclick="window.kanakApp.toggleWishlist('vat-purnima-bangles')" aria-label="Wishlist">♡</button>
+            </div>
+            <a href="vat-purnima-bangles.html"><h3 class="ed-title">Vat Purnima Bangle Set</h3></a>
+            <div class="ed-spec">Gold Polish &amp; Pearls (6 Pcs)</div>
+            <div class="ed-price">₹88,000</div>
+            <div class="ed-btn-row">
+              <a href="vat-purnima-bangles.html" class="ed-btn-view">View</a>
+              <button class="ed-btn-add" onclick="window.kanakApp.addToBag('vat-purnima-bangles')">Add</button>
+            </div>
+          </article>
+
+          <article class="editorial-card">
+            <div class="ed-media">
+              <a href="emerald-leaf-nath.html"><img src="assets/images/emerald-kundan-leaf-nath.jpg" alt="Panna Ratna Nath" class="ed-img"></a>
+              <button class="ed-wish-btn" onclick="window.kanakApp.toggleWishlist('emerald-leaf-nath')" aria-label="Wishlist">♡</button>
+            </div>
+            <a href="emerald-leaf-nath.html"><h3 class="ed-title">Panna Ratna Vruksha Nath</h3></a>
+            <div class="ed-spec">Gold Polish &amp; Green Stones</div>
+            <div class="ed-price">₹21,200</div>
+            <div class="ed-btn-row">
+              <a href="emerald-leaf-nath.html" class="ed-btn-view">View</a>
+              <button class="ed-btn-add" onclick="window.kanakApp.addToBag('emerald-leaf-nath')">Add</button>
+            </div>
+          </article>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 36px;">
+          <a href="#maisons" class="btn-pill btn-pill-primary">Shop All Collections →</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- BLOCK 7: FROM OUR CUSTOMERS (TESTIMONIALS) -->
+    <section class="testimonials-section" id="patron-testimonials">
+      <div class="testimonials-container">
+        <div style="text-align: center; margin-bottom: 48px;">
+          <span style="font-size: 0.74rem; font-weight: 700; color: var(--c-10); letter-spacing: 0.2em; text-transform: uppercase;">Testimonials</span>
+          <h2 class="testimonials-title" style="margin-top: 8px; margin-bottom: 12px;">From our <em>customers</em>.</h2>
+          <p style="font-size: 0.9rem; color: var(--c-text-muted); max-width: 620px; margin: 0 auto;">Authentic feedback and wedding memories shared by brides and collectors across Maharashtra.</p>
+        </div>
+
+        <div class="testimonial-cards-grid">
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="t-header-row">
+              <span class="t-rating-stars">★★★★★</span>
+              <span class="t-product-pill">Peshwai Ruby Nath</span>
+            </div>
+            <p class="t-quote-text">
+              “Wore this for my wedding in Thane. As someone with no nose piercing, I was terrified of clip-on naths slipping during pheras. The press-fit clip didn't move an inch all evening, and the seed pearls looked extraordinarily beautiful and royal.”
+            </p>
+            <div class="t-author-footer">
+              <div class="t-author-info">
+                <span class="t-author">Pooja Salvi</span>
+                <span class="t-location">Thane, Maharashtra</span>
+              </div>
+              <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="t-insta-handle">
+                @pooja.salvi_92 ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="t-header-row">
+              <span class="t-rating-stars">★★★★★</span>
+              <span class="t-product-pill">Masoli Karnaful</span>
+            </div>
+            <p class="t-quote-text">
+              “The green minakari work and freshwater pearl fringe are pure poetry. Wore them for 8 hours with my bottle-green Paithani—zero earlobe fatigue or pulling. Truly ancient Maharashtrian art made for modern comfort.”
+            </p>
+            <div class="t-author-footer">
+              <div class="t-author-info">
+                <span class="t-author">Sayali Chitnis</span>
+                <span class="t-location">Pune, Maharashtra</span>
+              </div>
+              <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="t-insta-handle">
+                @sayali_chitnis ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="t-header-row">
+              <span class="t-rating-stars">★★★★★</span>
+              <span class="t-product-pill">Vat Purnima Bangles</span>
+            </div>
+            <p class="t-quote-text">
+              “Unboxing felt so special. Velvet jewelry pouch, care instructions card, and soft cleaning cloth included. The look of the Laxmi kadas and delicate pearl pichodi work is just like real gold.”
+            </p>
+            <div class="t-author-footer">
+              <div class="t-author-info">
+                <span class="t-author">Dr. Shruti Kulkarni</span>
+                <span class="t-location">Mumbai, Maharashtra</span>
+              </div>
+              <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="t-insta-handle">
+                @dr.shruti_k ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card">
+            <div class="t-header-row">
+              <span class="t-rating-stars">★★★★★</span>
+              <span class="t-product-pill">Padmarag Mukta Nath</span>
+            </div>
+            <p class="t-quote-text">
+              “Ordered for my daughter's Sakharpuda engagement. The deep ruby cabochon and antique gold finish looked straight out of historic Maratha royal archives. Arrived in Pune within 48 hours of ordering.”
+            </p>
+            <div class="t-author-footer">
+              <div class="t-author-info">
+                <span class="t-author">Kavita Deshpande</span>
+                <span class="t-location">Kothrud, Pune</span>
+              </div>
+              <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="t-insta-handle">
+                @kavita_d_pune ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Testimonial 5 -->
+          <div class="testimonial-card">
+            <div class="t-header-row">
+              <span class="t-rating-stars">★★★★★</span>
+              <span class="t-product-pill">Panna Vruksha Nath</span>
+            </div>
+            <p class="t-quote-text">
+              “Teardrop green stones in a rich gold finish. Lightweight, minimal, and looks very graceful on the face. Their team on WhatsApp even shared a quick video of the piece before dispatch!”
+            </p>
+            <div class="t-author-footer">
+              <div class="t-author-info">
+                <span class="t-author">Mrunal Shinde</span>
+                <span class="t-location">Nashik, Maharashtra</span>
+              </div>
+              <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="t-insta-handle">
+                @mrunal_s_art ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Testimonial 6 -->
+          <div class="testimonial-card">
+            <div class="t-header-row">
+              <span class="t-rating-stars">★★★★★</span>
+              <span class="t-product-pill">Bridal &amp; Bappa Saaj</span>
+            </div>
+            <p class="t-quote-text">
+              “We commissioned both Bappa's festive shringar and our family festival jewellery from Kanak Kala. The purity, ethics, and devotion to preserving Puratan Kalecha Adhunik Saj shine in every single piece.”
+            </p>
+            <div class="t-author-footer">
+              <div class="t-author-info">
+                <span class="t-author">Anuradha Joshi</span>
+                <span class="t-location">Dadar, Mumbai</span>
+              </div>
+              <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="t-insta-handle">
+                @joshi_anuradha ↗
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="testimonial-nav-arrows">
+          <button type="button" class="t-arrow-btn" aria-label="Previous reviews" onclick="window.kanakApp.scrollTestimonials(-1)">←</button>
+          <button type="button" class="t-arrow-btn" aria-label="Next reviews" onclick="window.kanakApp.scrollTestimonials(1)">→</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BLOCK 8: LETTERS FROM THE ATELIER (NEWSLETTER) -->
+    <section class="newsletter-banner-section" id="newsletter">
+      <div class="newsletter-banner-container">
+        <div class="newsletter-box">
+          <h2 class="nl-title">Stay <em>Updated</em>.</h2>
+          <p class="nl-desc">Get first looks at new festival collections and special festive offers.</p>
+          <form class="nl-form" onsubmit="event.preventDefault(); window.kanakApp.subscribeNewsletter();">
+            <input type="email" class="nl-input" placeholder="Your email address" required>
+            <button type="submit" class="btn-pill btn-pill-primary">Subscribe →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOCK 9: INSTAGRAM CONNECTED SOCIAL PROOFS (REELS & POSTS) -->
+    <section class="insta-social-proofs-section" id="instagram-proofs">
+      <div class="insta-proofs-container">
+        
+        <!-- Atelier Profile Hub -->
+        <div class="insta-section-top">
+          <div class="insta-profile-hub">
+            <div class="insta-avatar-wrap">
+              <img src="assets/images/kanak-kala-logo-transparent.png" alt="Kanak Kala Atelier" class="insta-avatar-img">
+            </div>
+            <div class="insta-hub-info">
+              <div class="insta-handle-badge-row">
+                <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-main-handle">@_kanak_kala</a>
+                <span class="insta-verified-pill">✓ Verified Brand</span>
+              </div>
+              <p class="insta-meta-desc">Puratan Kalecha Adhunik Saj • Handcrafted Maharashtrian Traditional Jewellery • Maharashtra, India</p>
+              <div class="insta-counts-row">
+                <span><strong>420</strong> Designs</span>
+                <span><strong>18.4K</strong> Followers</span>
+                <span><strong>100%</strong> Quality Checked</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-gold">
+            Follow on Instagram ↗
+          </a>
+        </div>
+
+        <!-- Instagram Story Highlights Strip (From @_kanak_kala Profile) -->
+        <div class="insta-highlights-strip" aria-label="Instagram Story Highlights">
+          
+          <a href="#patron-testimonials" class="insta-highlight-bubble" title="View 50+ Client Reviews">
+            <div class="insta-highlight-ring">
+              <div class="insta-highlight-cover" style="background-color: var(--c-30); color: var(--c-10);">
+                ★
+              </div>
+            </div>
+            <span class="insta-highlight-title">Client Love</span>
+            <span class="insta-highlight-sub">50+ Reviews</span>
+          </a>
+
+          <a href="#instagram-proofs" class="insta-highlight-bubble" onclick="window.kanakApp.filterInstaProofs('post');" title="Real Brides Showcase">
+            <div class="insta-highlight-ring">
+              <div class="insta-highlight-cover">
+                <img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Highlight: Real Brides" loading="lazy">
+              </div>
+            </div>
+            <span class="insta-highlight-title">Real Brides</span>
+            <span class="insta-highlight-sub">Pune &amp; Mumbai</span>
+          </a>
+
+          <a href="#instagram-proofs" class="insta-highlight-bubble" onclick="window.kanakApp.filterInstaProofs('reel');" title="Parcel & Velvet Unboxing">
+            <div class="insta-highlight-ring">
+              <div class="insta-highlight-cover">
+                <img src="assets/images/vat-purnima-heritage-bangles.jpg" alt="Highlight: Unboxing" loading="lazy">
+              </div>
+            </div>
+            <span class="insta-highlight-title">Unboxing</span>
+            <span class="insta-highlight-sub">Velvet Chest</span>
+          </a>
+
+          <a href="#instagram-proofs" class="insta-highlight-bubble" onclick="window.kanakApp.filterInstaProofs('post');" title="Quality & Polish Proof">
+            <div class="insta-highlight-ring">
+              <div class="insta-highlight-cover">
+                <img src="assets/images/antique-padmarag-mukta-nath.jpg" alt="Highlight: Polish Quality" loading="lazy">
+              </div>
+            </div>
+            <span class="insta-highlight-title">Gold Polish</span>
+            <span class="insta-highlight-sub">Quality Proof</span>
+          </a>
+
+          <a href="#instagram-proofs" class="insta-highlight-bubble" onclick="window.kanakApp.filterInstaProofs('reel');" title="Benchwork & Hand-Crimping">
+            <div class="insta-highlight-ring">
+              <div class="insta-highlight-cover">
+                <img src="assets/images/emerald-kundan-leaf-nath.jpg" alt="Highlight: Atelier Craft" loading="lazy">
+              </div>
+            </div>
+            <span class="insta-highlight-title">Handmade Craft</span>
+            <span class="insta-highlight-sub">Making Video</span>
+          </a>
+
+          <a href="#instagram-proofs" class="insta-highlight-bubble" onclick="window.kanakApp.filterInstaProofs('post');" title="Festive Bappa & Bridal Saaj">
+            <div class="insta-highlight-ring">
+              <div class="insta-highlight-cover">
+                <img src="assets/images/masoli-karnaful-earrings.jpg" alt="Highlight: Festive Saaj" loading="lazy">
+              </div>
+            </div>
+            <span class="insta-highlight-title">Festive Saaj</span>
+            <span class="insta-highlight-sub">Bappa &amp; Bridal</span>
+          </a>
+
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="insta-filter-bar">
+          <div class="insta-tabs-group">
+            <button type="button" class="insta-tab-btn active" onclick="window.kanakApp.filterInstaProofs('all', this)">All Feeds (8)</button>
+            <button type="button" class="insta-tab-btn" onclick="window.kanakApp.filterInstaProofs('reel', this)">▶ Reels &amp; Behind the Scenes (4)</button>
+            <button type="button" class="insta-tab-btn" onclick="window.kanakApp.filterInstaProofs('post', this)">Customer Photos &amp; Reviews (4)</button>
+          </div>
+          <span style="font-size: 0.8rem; color: var(--c-text-muted);">Real customer photos &amp; making videos</span>
+        </div>
+
+        <!-- 8 Social Proof Cards (4 Reels + 4 Posts) -->
+        <div class="insta-proofs-grid">
+          
+          <!-- REEL 1 -->
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-proof-card" data-type="reel">
+            <div class="insta-media-frame">
+              <img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Reel: Crimp-fitting Peshwai Ruby Nath" class="insta-media-img" loading="lazy">
+              <span class="insta-type-badge">▶ REEL • 48.6K</span>
+              <div class="insta-play-prompt">
+                <span class="insta-play-bubble">▶</span>
+              </div>
+            </div>
+            <div class="insta-card-info-box">
+              <div class="insta-author-row">
+                <span class="insta-tag-author">@_kanak_kala</span>
+                <span class="insta-tag-role">Handmade Craft</span>
+              </div>
+              <p class="insta-caption-text">
+                Making video: Setting the ruby-red stone in a gold polish bezel and hand-stringing seed pearls.
+              </p>
+              <div class="insta-stats-footer">
+                <div class="insta-stats-nums">
+                  <span>❤️ 3,420</span>
+                  <span>💬 188</span>
+                </div>
+                <span class="insta-link-arrow">Watch Reel ↗</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- REEL 2 -->
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-proof-card" data-type="reel">
+            <div class="insta-media-frame">
+              <img src="assets/images/masoli-karnaful-earrings.jpg" alt="Reel: Masoli Karnaful bride ear-cuff styling guide" class="insta-media-img" loading="lazy">
+              <span class="insta-type-badge">▶ REEL • 62.1K</span>
+              <div class="insta-play-prompt">
+                <span class="insta-play-bubble">▶</span>
+              </div>
+            </div>
+            <div class="insta-card-info-box">
+              <div class="insta-author-row">
+                <span class="insta-tag-author">@_kanak_kala</span>
+                <span class="insta-tag-role">Bridal Guide</span>
+              </div>
+              <p class="insta-caption-text">
+                Painless ear-cuff fit test: how our fish-motif Masoli sits snug without pulling the earlobe during day-long wedding ceremonies.
+              </p>
+              <div class="insta-stats-footer">
+                <div class="insta-stats-nums">
+                  <span>❤️ 5,190</span>
+                  <span>💬 312</span>
+                </div>
+                <span class="insta-link-arrow">Watch Reel ↗</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- REEL 3 -->
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-proof-card" data-type="reel">
+            <div class="insta-media-frame">
+              <img src="assets/images/vat-purnima-heritage-bangles.jpg" alt="Reel: 6-Piece Vat Purnima Bridal Kada Set" class="insta-media-img" loading="lazy">
+              <span class="insta-type-badge">▶ REEL • 39.4K</span>
+              <div class="insta-play-prompt">
+                <span class="insta-play-bubble">▶</span>
+              </div>
+            </div>
+            <div class="insta-card-info-box">
+              <div class="insta-author-row">
+                <span class="insta-tag-author">@_kanak_kala</span>
+                <span class="insta-tag-role">Packing</span>
+              </div>
+              <p class="insta-caption-text">
+                Order packing: Velvet pouch packing of six Laxmi coin bangles and pearl Pichodis ready for dispatch to Kolhapur.
+              </p>
+              <div class="insta-stats-footer">
+                <div class="insta-stats-nums">
+                  <span>❤️ 2,890</span>
+                  <span>💬 145</span>
+                </div>
+                <span class="insta-link-arrow">Watch Reel ↗</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- REEL 4 -->
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-proof-card" data-type="reel">
+            <div class="insta-media-frame">
+              <img src="assets/images/emerald-kundan-leaf-nath.jpg" alt="Reel: Precision setting Panna Ratna Leaf Nath" class="insta-media-img" loading="lazy">
+              <span class="insta-type-badge">▶ REEL • 55.2K</span>
+              <div class="insta-play-prompt">
+                <span class="insta-play-bubble">▶</span>
+              </div>
+            </div>
+            <div class="insta-card-info-box">
+              <div class="insta-author-row">
+                <span class="insta-tag-author">@_kanak_kala</span>
+                <span class="insta-tag-role">Stone Setting</span>
+              </div>
+              <p class="insta-caption-text">
+                Detailed leaf pattern in gold polish with teardrop green stones and pearl drop.
+              </p>
+              <div class="insta-stats-footer">
+                <div class="insta-stats-nums">
+                  <span>❤️ 4,670</span>
+                  <span>💬 209</span>
+                </div>
+                <span class="insta-link-arrow">Watch Reel ↗</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- POST 1: PATRON PROOF -->
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-proof-card" data-type="post">
+            <div class="insta-media-frame">
+              <img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Patron Proof: Ananya Deshmukh Pune" class="insta-media-img" loading="lazy">
+              <span class="insta-type-badge">POST • Pune Bride</span>
+            </div>
+            <div class="insta-card-info-box">
+              <div class="insta-author-row">
+                <span class="insta-tag-author">@ananya.deshmukh</span>
+                <span class="insta-tag-role">Verified Customer</span>
+              </div>
+              <p class="insta-caption-text">
+                <em>“Wore the Peshwai Nath for my Sakharpuda in Pune. Didn't hurt even for a single second, and every aunt asked where I got this antique finish from!”</em>
+              </p>
+              <div class="insta-stats-footer">
+                <div class="insta-stats-nums">
+                  <span>❤️ 1,840</span>
+                  <span>💬 94</span>
+                </div>
+                <span class="insta-link-arrow">View Post ↗</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- POST 2: PATRON PROOF -->
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-proof-card" data-type="post">
+            <div class="insta-media-frame">
+              <img src="assets/images/antique-padmarag-mukta-nath.jpg" alt="Customer Review: Quality &amp; Polish Inspection" class="insta-media-img" loading="lazy">
+              <span class="insta-type-badge">POST • Quality Check</span>
+            </div>
+            <div class="insta-card-info-box">
+              <div class="insta-author-row">
+                <span class="insta-tag-author">@dr.neha_joshi</span>
+                <span class="insta-tag-role">Mumbai Customer</span>
+              </div>
+              <p class="insta-caption-text">
+                <em>“Every piece arrives safely packed in a velvet pouch with care instructions. The polish and shine look so genuine and festive.”</em>
+              </p>
+              <div class="insta-stats-footer">
+                <div class="insta-stats-nums">
+                  <span>❤️ 2,110</span>
+                  <span>💬 83</span>
+                </div>
+                <span class="insta-link-arrow">View Post ↗</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- POST 3: PATRON PROOF -->
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-proof-card" data-type="post">
+            <div class="insta-media-frame">
+              <img src="assets/images/vat-purnima-heritage-bangles.jpg" alt="Patron Proof: Gauri Patwardhan Kolhapur" class="insta-media-img" loading="lazy">
+              <span class="insta-type-badge">POST • Bridal Proof</span>
+            </div>
+            <div class="insta-card-info-box">
+              <div class="insta-author-row">
+                <span class="insta-tag-author">@gauri_patwardhan</span>
+                <span class="insta-tag-role">Kolhapur Customer</span>
+              </div>
+              <p class="insta-caption-text">
+                <em>“The weight and warm luster of the Laxmi kadas in person exceeded all photos. Packaged like a gift box with velvet pouch.”</em>
+              </p>
+              <div class="insta-stats-footer">
+                <div class="insta-stats-nums">
+                  <span>❤️ 3,250</span>
+                  <span>💬 176</span>
+                </div>
+                <span class="insta-link-arrow">View Post ↗</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- POST 4: PATRON PROOF -->
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="insta-proof-card" data-type="post">
+            <div class="insta-media-frame">
+              <img src="assets/images/masoli-karnaful-earrings.jpg" alt="Patron Proof: Tanvi Kulkarni Mumbai" class="insta-media-img" loading="lazy">
+              <span class="insta-type-badge">POST • Reception Look</span>
+            </div>
+            <div class="insta-card-info-box">
+              <div class="insta-author-row">
+                <span class="insta-tag-author">@tanvi_k_stylist</span>
+                <span class="insta-tag-role">Celebrity Stylist</span>
+              </div>
+              <p class="insta-caption-text">
+                <em>“Paired the Masoli Karnaful with a deep bottle-green Nauvari for our bride. Lightweight yet imposing antique presence under stage lights.”</em>
+              </p>
+              <div class="insta-stats-footer">
+                <div class="insta-stats-nums">
+                  <span>❤️ 2,780</span>
+                  <span>💬 142</span>
+                </div>
+                <span class="insta-link-arrow">View Post ↗</span>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Bottom Link / CTA -->
+        <div class="insta-bottom-cta-wrap">
+          <a href="https://instagram.com/_kanak_kala" target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-gold">
+            Explore All Reels &amp; Posts on @_kanak_kala →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- BLOCK 9: REFINED MULTI-COLUMN FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      
+      <div class="footer-brand-col">
+        <a href="index.html" aria-label="Kanak Jewellery Home">
+          <img src="assets/images/kanak-kala-logo-transparent.png" alt="Kanak Kala - Puratan Kalecha Adhunik Saj" class="footer-logo-img">
+        </a>
+        <p class="footer-bio">Handcrafted traditional Maharashtrian jewellery. Rich gold polish, classic motifs, and lightweight comfort.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Shop</h4>
+        <ul class="footer-links">
+          <li><a href="peshwai-ruby-nath.html">Peshwai Naths</a></li>
+          <li><a href="masoli-karnaful.html">Masoli Karnaful</a></li>
+          <li><a href="vat-purnima-bangles.html">Bridal Bangles</a></li>
+          <li><a href="emerald-leaf-nath.html">Kundan &amp; Panna</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Customer Care</h4>
+        <ul class="footer-links">
+          <li><a href="cart.html">Shopping Bag</a></li>
+          <li><a href="contact.html">Customer Support</a></li>
+          <li><a href="https://wa.me/919152284091" target="_blank" rel="noopener noreferrer">WhatsApp Support</a></li>
+          <li><span>Free Shipping Across India</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">About Kanak</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">Founder's Story</a></li>
+          <li><span>Maharashtra, India</span></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><span>WhatsApp: +91 91522 84091</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <span>&copy; 2026 Kanak Jewellery.</span>
+        <span>Made with love, worn with pride.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-notification" id="toastNotification"><span class="toast-message" id="toastMessage"></span></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

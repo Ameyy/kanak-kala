@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Bag | Kanak Jewellery</title>
+  <meta name="description" content="Review your selected handcrafted Maharashtrian jewellery before checkout. Complimentary insured shipping.">
+  
+  <link rel="icon" type="image/png" href="assets/images/kanak-kala-logo-transparent.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement -->
+  <div class="top-announcement">
+    <div class="announcement-content">
+      <span>FREE SHIPPING ACROSS INDIA</span>
+      <span class="announcement-sep">•</span>
+      <span>PREMIUM GOLD FINISH &amp; HANDPICKED STONES</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="nav-left">
+        <button class="menu-trigger-btn" id="menuToggleBtn" aria-label="Open full page menu">
+          <span class="menu-trigger-icon" aria-hidden="true">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+          </span>
+          <span class="menu-trigger-label">MENU</span>
+        </button>
+      </div>
+
+      <a href="index.html" class="brand-logo" aria-label="Kanak Jewellery Home">
+        <img src="assets/images/kanak-kala-wordmark.png" alt="Kanak Kala" class="brand-logo-img">
+      </a>
+
+      <div class="nav-actions">
+        <div class="currency-picker">
+          <label for="currencySelect" class="sr-only">Currency</label>
+          <select id="currencySelect">
+            <option value="INR" selected>INR (₹)</option>
+            <option value="USD">USD ($)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="AED">AED (د.إ)</option>
+          </select>
+        </div>
+
+        <a href="cart.html" class="action-btn bag-btn" aria-label="Shopping Bag">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="action-badge" id="bagCountBadge">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- FULL PAGE EDITORIAL MENU -->
+  <div class="full-page-menu" id="fullPageMenu" aria-hidden="true">
+    <div class="fp-menu-inner">
+      
+      <!-- Top Bar of Menu -->
+      <div class="fp-menu-header">
+        <button class="fp-menu-close-btn" id="fpMenuCloseBtn" aria-label="Close menu">
+          <span class="fp-close-icon">✕</span>
+          <span class="fp-close-text">CLOSE</span>
+        </button>
+
+        <a href="index.html" class="fp-menu-brand" aria-label="Kanak Jewellery Home">
+          <img src="assets/images/kanak-kala-wordmark.png" alt="Kanak Kala" class="fp-brand-img">
+        </a>
+
+        <div class="fp-header-meta">
+          <span class="fp-location-tag">MUMBAI ATELIER</span>
+          <a href="cart.html" class="fp-bag-link">
+            BAG (<span class="fp-bag-count">0</span>)
+          </a>
+        </div>
+      </div>
+
+      <!-- Menu Breadcrumb Context Ribbon -->
+      <div class="fp-menu-ribbon">
+        <div class="fp-ribbon-content">
+          <span>JEWELLERY DIRECTORY</span>
+          <span class="fp-ribbon-sep">•</span>
+          <span>TRADITIONAL GOLD FINISH DESIGNS</span>
+          <span class="fp-ribbon-sep">•</span>
+          <span>HANDCRAFTED IN MAHARASHTRA</span>
+        </div>
+      </div>
+
+      <!-- Main Menu Content Grid -->
+      <div class="fp-menu-body">
+        
+        <!-- Column 1: Editorial Main Navigation -->
+        <nav class="fp-col fp-nav-col">
+          <span class="fp-col-label">EXPLORE ATELIER</span>
+          <ul class="fp-nav-list">
+            <li class="fp-nav-item">
+              <a href="index.html#maisons" class="fp-nav-link">
+                <span class="fp-link-num">01</span>
+                <span class="fp-link-title">All Collections</span>
+                <span class="fp-link-sub">सर्व संग्रह • Heirloom Maisons</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="peshwai-ruby-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">02</span>
+                <span class="fp-link-title">Peshwai Ruby Nath</span>
+                <span class="fp-link-sub">पेशवाई नथ • Teardrop Ruby &amp; Gold</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="masoli-karnaful.html" class="fp-nav-link">
+                <span class="fp-link-num">03</span>
+                <span class="fp-link-title">Masoli Karnaful</span>
+                <span class="fp-link-sub">मसोळी कर्णफुल • Minakari &amp; Pearls</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="vat-purnima-bangles.html" class="fp-nav-link">
+                <span class="fp-link-num">04</span>
+                <span class="fp-link-title">Vat Purnima Bangles</span>
+                <span class="fp-link-sub">वटपौर्णिमा तोडे • Six-Piece Bridal Set</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="emerald-leaf-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">05</span>
+                <span class="fp-link-title">Panna Ratna Vruksha Nath</span>
+                <span class="fp-link-sub">पाचू नथ • Natural Emerald Petals</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="antique-padmarag-nath.html" class="fp-nav-link">
+                <span class="fp-link-num">06</span>
+                <span class="fp-link-title">Antique Padmarag Nath</span>
+                <span class="fp-link-sub">पद्मराग नथ • White Pearl Drop</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="about.html" class="fp-nav-link">
+                <span class="fp-link-num">07</span>
+                <span class="fp-link-title">About Us • Founder's Story</span>
+                <span class="fp-link-sub">संस्थापकाची गोष्ट • Our Heritage Journey</span>
+              </a>
+            </li>
+            <li class="fp-nav-item">
+              <a href="contact.html" class="fp-nav-link">
+                <span class="fp-link-num">08</span>
+                <span class="fp-link-title">Private Appointments</span>
+                <span class="fp-link-sub">खास बैठक • Atelier Consultation</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Column 2: Featured Heirlooms Spotlight -->
+        <div class="fp-col fp-featured-col">
+          <span class="fp-col-label">MASTERPIECE SPOTLIGHT</span>
+          <div class="fp-spotlight-card">
+            <div class="fp-spotlight-frame">
+              <img src="assets/images/peshwai-ruby-gold-nath.jpg" alt="Peshwai Ruby Nath" class="fp-spotlight-img">
+            </div>
+            <div class="fp-spotlight-details">
+              <span class="fp-spotlight-tag">GOLD POLISH • CLASSIC</span>
+              <h3 class="fp-spotlight-title">Peshwai Ruby Nath</h3>
+              <p class="fp-spotlight-desc">Maharashtrian clip-on piece with teardrop red stone and seed pearls.</p>
+              <div class="fp-spotlight-price-row">
+                <span class="fp-spotlight-price">₹18,500</span>
+                <a href="peshwai-ruby-nath.html" class="btn-pill btn-pill-outline btn-sm">View Piece →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: Atelier Information & Direct Concierge -->
+        <div class="fp-col fp-atelier-col">
+          <span class="fp-col-label">OUR PROMISE</span>
+          
+          <div class="fp-info-block">
+            <h4 class="fp-info-heading">Quality Guarantee</h4>
+            <p class="fp-info-text">Every piece is handcrafted with premium gold finish, sparkling hand-set stones, and lustrous pearls.</p>
+          </div>
+
+          <div class="fp-info-block">
+            <h4 class="fp-info-heading">WhatsApp Support &amp; Orders</h4>
+            <p class="fp-info-text">Chat with us for styling guidance, custom queries, and urgent festive delivery.</p>
+            <a href="https://wa.me/919152284091?text=Namaste%20Kanak%20Jewellery%2C%20I%20would%20like%20to%20inquire%20about%20your%20jewellery." target="_blank" rel="noopener" class="btn-pill btn-pill-primary btn-sm fp-wa-btn">
+              Chat on WhatsApp →
+            </a>
+          </div>
+
+          <div class="fp-info-block">
+            <h4 class="fp-info-heading">Studio Address</h4>
+            <p class="fp-info-text">Girgaon &amp; Dadar,<br>Mumbai, Maharashtra 400004</p>
+          </div>
+
+          <div class="fp-social-links">
+            <a href="https://www.instagram.com/_kanak_kala" target="_blank" rel="noopener" class="fp-social-link">
+              Instagram @_kanak_kala ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Menu Footer -->
+      <div class="fp-menu-footer">
+        <span>© 2026 Kanak Jewellery (कनक कला). All rights reserved.</span>
+        <span>Free Safe Delivery Across India</span>
+      </div>
+
+    </div>
+  </div>
+
+  <main class="cart-page-main">
+    <div class="catalog-container">
+      
+      <div class="cart-header">
+        <h1 class="cart-title">Your <em>shopping bag</em>.</h1>
+      </div>
+
+      <div id="cartContentContainer">
+        <!-- Injected via JavaScript from localStorage -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand-col">
+        <a href="index.html" aria-label="Kanak Jewellery Home">
+          <img src="assets/images/kanak-kala-wordmark.png" alt="Kanak Kala" class="footer-logo-img">
+        </a>
+        <p class="footer-bio">Handcrafted traditional Maharashtrian jewellery. Rich gold polish, classic motifs, and lightweight comfort.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Shop</h4>
+        <ul class="footer-links">
+          <li><a href="peshwai-ruby-nath.html">Peshwai Naths</a></li>
+          <li><a href="masoli-karnaful.html">Masoli Karnaful</a></li>
+          <li><a href="vat-purnima-bangles.html">Bridal Bangles</a></li>
+          <li><a href="emerald-leaf-nath.html">Kundan &amp; Panna</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Customer Care</h4>
+        <ul class="footer-links">
+          <li><a href="contact.html">Customer Support</a></li>
+          <li><a href="https://wa.me/919152284091" target="_blank" rel="noopener noreferrer">WhatsApp Support</a></li>
+          <li><span>Free Shipping Across India</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">About Kanak</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">Founder's Story</a></li>
+          <li><span>Maharashtra, India</span></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><span>WhatsApp: +91 91522 84091</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <span>&copy; 2026 Kanak Jewellery.</span>
+        <span>Made with love, worn with pride.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-notification" id="toastNotification"><span class="toast-message" id="toastMessage"></span></div>
+
+  <script src="app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.kanakApp && window.kanakApp.renderCartPage) {
+        window.kanakApp.renderCartPage();
+      }
+    });
+  </script>
+</body>
+</html>
